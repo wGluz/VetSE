@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".VetseCrieUmaConta">
+
+
+    <TextView
+        android:id="@+id/title_crieumaconta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/title_cadastre"
+        android:textColor="@color/dark_green"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_acessarapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acessarapp"
+        android:textSize="20sp"
+        android:textColor="@color/dark_grey"
+        android:layout_marginTop="69dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/title_crieumaconta"
+        />
+
+    <EditText
+        android:id="@+id/nome"
+        style="@style/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/title_acessarapp"
+        android:layout_marginTop="50dp"
+        android:hint="Nome"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        style="@style/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/nome"
+        android:layout_marginTop="20sp"
+        android:hint="Digite seu email"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_email"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/edit_number"
+        style="@style/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/edit_email"
+        android:layout_marginTop="20sp"
+        android:hint="Digite seu telefone"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/CPF"
+        style="@style/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/edit_number"
+        android:layout_marginTop="20sp"
+        android:hint="Digite seu CPF"
+        android:inputType="text|number"
+        android:drawableLeft="@drawable/ic_baseline_wysiwyg_24"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/edit_cep"
+        style="@style/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/CPF"
+        android:layout_marginTop="20sp"
+        android:hint="Digite seu CEP"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/edit_endereco"
+        style="@style/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/edit_cep"
+        android:layout_marginTop="20sp"
+        android:hint="Digite seu Endereço"
+        android:inputType="textPostalAddress"
+        android:drawableLeft="@drawable/ic_baseline_edit_location_24"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/edit_complemento"
+        style="@style/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/edit_endereco"
+        android:layout_marginTop="20sp"
+        android:hint="Complemento"
+        android:inputType="textPostalAddress"
+        android:drawableLeft="@drawable/ic_baseline_emoji_flags_24"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/edit_"
+        style="@style/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/edit_"
+        android:layout_marginTop="20sp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_email"
+        tools:ignore="MissingConstraints"/>
+
+ddd
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

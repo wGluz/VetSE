@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VetSE</string>
+    <string name="login">Login / Tutor</string>
+    <string name="login_aviso">Faça login para acessar sua conta</string>
+    <string name="senha">Esqueceu sua senha?</string>
+    <string name="conta">Não possui uma conta?</string>
+    <string name="cadastro">Cadastre-se</string>
+    <string name="title_cadastre">Crie uma conta</string>
+    <string name="acessarapp">Crie sua conta para acessar o app</string>
+
+
+</resources>
