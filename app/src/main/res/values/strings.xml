@@ -7,6 +7,9 @@
     <string name="cadastro">Cadastre-se</string>
     <string name="title_cadastre">Crie uma conta</string>
     <string name="acessarapp">Crie sua conta para acessar o app</string>
-
+    
+<!-- Home -->
+    
+    <string name="title_home">Encontre o veterinário mais próximo de você</string>
 
 </resources>

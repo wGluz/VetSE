@@ -15,7 +15,9 @@
     <color name="light_greyplus">#cccccc</color>
     <color name="dark_grey">#7D7D7D</color>
 
+<!-- Home -->
 
+    <color name="background_color">#F3F3F3</color>
 
 
 </resources>

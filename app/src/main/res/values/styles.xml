@@ -20,8 +20,14 @@
         <item name="android:layout_marginTop">15dp</item>
 
         <item name="background">@drawable/button</item>
+    </style>
 
+<!-- Home -->
 
+    <style name="title_home">
+        <item name="fontFamily">Roboto</item>
+        <item name="android:textSize">29sp</item>
+        <item name="lineHeight">35sp</item>
     </style>
 
 
