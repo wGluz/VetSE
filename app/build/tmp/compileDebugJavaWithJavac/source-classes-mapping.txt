@@ -1,3 +1,5 @@
+com/example/vetse/BuildConfig.java
+ com.example.vetse.BuildConfig
 com/example/vetse/VetseCrieUmaConta.java
  com.example.vetse.VetseCrieUmaConta
 com/example/vetse/MainActivity.java
@@ -8,5 +10,3 @@ com/example/vetse/VetSE_Bem_Vindo.java
  com.example.vetse.VetSE_Bem_Vindo
 com/example/vetse/VetSELogin.java
  com.example.vetse.VetSELogin
-com/example/vetse/BuildConfig.java
- com.example.vetse.BuildConfig

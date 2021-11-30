@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VetSE">
         <activity
-            android:name=".home"
-            android:exported="false" />
-        <activity
             android:name=".VetseCrieUmaConta"
             android:exported="true" />
         <activity
@@ -22,7 +19,7 @@
             android:name=".MainActivity"
             android:exported="true" />
         <activity
-            android:name=".VetSELogin"
+            android:name=".home"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

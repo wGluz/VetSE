@@ -1,4 +1,4 @@
-#Thu Nov 25 19:16:02 BRT 2021
+#Tue Nov 30 17:25:47 BRT 2021
 base.2=C\:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
 path.2=1/classes.dex
 base.1=C\:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

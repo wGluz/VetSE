@@ -10,6 +10,7 @@
     
 <!-- Home -->
     
-    <string name="title_home">Encontre o veterinário mais próximo de você</string>
+    <string name="title_home_p1">Encontre o veterinário mais</string>
+    <string name="title_home_p2">próximo de você</string>
 
 </resources>

@@ -241,6 +241,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -1777,6 +1781,8 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background
 drawable bemvindo
+drawable bgreen_light
+drawable bgreen_rounded
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1785,14 +1791,19 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable bunny_emoji
 drawable button
+drawable bwhite_rounded
 drawable cadastro
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable doctor01
+drawable doctor02
 drawable edit_text
+drawable frog_emoji
 drawable ic_arrow_24
 drawable ic_baseline_edit_location_24
 drawable ic_baseline_emoji_flags_24
@@ -1846,6 +1857,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable snake_emoji
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2029,7 +2041,6 @@ id edit_number
 id edit_query
 id edit_senha
 id elastic
-id encontre_o_
 id end
 id endToStart
 id enterAlways
@@ -2064,6 +2075,7 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id horizontalScrollView
 id horizontal_only
 id icon
 id icon_group
@@ -2071,6 +2083,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id immediateStop
 id included
 id info
@@ -2283,6 +2296,11 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2603,7 +2621,8 @@ string search_menu_title
 string senha
 string status_bar_notification_info_overflow
 string title_cadastre
-string title_home
+string title_home_p1
+string title_home_p2
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -3357,6 +3376,7 @@ styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCo
 styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carousel_firstView carousel_forwardTransition carousel_infinite carousel_nextState carousel_previousState carousel_touchUpMode carousel_touchUp_dampeningFactor carousel_touchUp_velocityThreshold
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

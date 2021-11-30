@@ -19,9 +19,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.VetSE" >
         <activity
-            android:name="com.example.vetse.home"
-            android:exported="false" />
-        <activity
             android:name="com.example.vetse.VetseCrieUmaConta"
             android:exported="true" />
         <activity
@@ -31,7 +28,7 @@
             android:name="com.example.vetse.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.vetse.VetSELogin"
+            android:name="com.example.vetse.home"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
