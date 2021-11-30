@@ -11,3 +11,5 @@ com/example/vetse/VetSE_Bem_Vindo.java
 com/example/vetse/VetSELogin.java
  com.example.vetse.VetSELogin
  com.example.vetse.VetSELogin$1
+com/example/vetse/BuildConfig.java
+ com.example.vetse.BuildConfig
