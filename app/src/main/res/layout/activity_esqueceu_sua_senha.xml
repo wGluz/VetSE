@@ -139,7 +139,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/conf_senha"
         tools:ignore="HardcodedText,RtlHardcoded" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
