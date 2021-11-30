@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VetSE</string>
+   <string name="app_name">VetSE</string>
     <string name="login">Login / Tutor</string>
     <string name="login_aviso">Faça login para acessar sua conta</string>
     <string name="senha">Esqueceu sua senha?</string>
@@ -7,10 +7,13 @@
     <string name="cadastro">Cadastre-se</string>
     <string name="title_cadastre">Crie uma conta</string>
     <string name="acessarapp">Crie sua conta para acessar o app</string>
-    
-<!-- Home -->
-    
-    <string name="title_home_p1">Encontre o veterinário mais</string>
+    <string name="termos">Eu li e concordo com os Termos de Serviço e Politicas de Privacidade</string>
+    <string name="formulario">Preencha o formulário abaixo</string>
+    <string name="mensagem_formulario">Após o envio do formulário, o mesmo passará por análise antes da aprovação.</string>
+    <string name="esqSenha">Esqueceu sua senha?</string>
+    <string name="infoesqsenha">Informe abaixo seu e-mail para envio de uma nova senha.</string>
+    <string name="inforecsenha">Informe abaixo a senha enviada ao seu e-mail, após isso digite e confirme uma nova senha </string>
+    <string name="veterinario">É veterinário e quer se cadastrar?</string>
     <string name="title_home_p2">próximo de você</string>
 
 </resources>
