@@ -18,10 +18,10 @@
         <item name="android:layout_marginRight">40dp</item>
         <item name="android:layout_marginLeft">40dp</item>
         <item name="android:layout_marginTop">15dp</item>
-
         <item name="background">@drawable/button</item>
     </style>
 
+<<<<<<< HEAD
 <!-- Home -->
 
     <style name="title_home">
@@ -31,4 +31,14 @@
         <item name="fontWeight"></item>
     </style>
 
+=======
+    <style name="Button_p">
+    <item name="android:layout_width"> 50dp</item>
+    <item name="android:layout_height">50dp</item>
+    <item name="android:padding">20dp</item>
+    <item name="android:layout_marginRight">40dp</item>
+    <item name="android:layout_marginLeft">40dp</item>
+    <item name="android:layout_marginTop">15dp</item>
+    </style>
+>>>>>>> 136f26dddf9150d41195f9ece71a2a3dadb891ac
 </resources>

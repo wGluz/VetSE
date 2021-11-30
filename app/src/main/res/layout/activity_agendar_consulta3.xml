@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".agendar_consulta3">
+
+
+        <TextView
+            android:id="@+id/confirma_endereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Confirme o endereço"
+            android:textColor="@color/dark_green"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bt_voltar" />
+
+
+        <TextView
+            android:id="@+id/info_endereco"
+            style="@style/edit_text"
+            android:layout_width="328dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text"
+            android:text="Meu endereço"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/confirma_endereco"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="40dp" />
+
+        <TextView
+            android:id="@+id/confirma_pagamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="Confirme a forma de pagamento"
+            android:textColor="@color/dark_green"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/info_endereco" />
+
+        <TextView
+            android:id="@+id/info_pagamento"
+            style="@style/edit_text"
+            android:layout_marginTop="16dp"
+            android:layout_width="328dp"
+            android:layout_height="95dp"
+            android:text="Meu cartão"
+            android:textSize="20sp"
+            android:background="@drawable/edit_text"
+            app:layout_constraintTop_toBottomOf="@+id/confirma_pagamento"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="40dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/agenda_consulta"
+            style="@style/Button"
+            android:background="@drawable/button"
+            android:drawableRight="@drawable/ic_arrow_24"
+            android:text="Agendar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded"
+            tools:layout_editor_absoluteY="621dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/alterar_endereco"
+            style="@style/Button_p"
+            android:background="@drawable/button"
+            android:drawableRight="@drawable/ic_arrow_24"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded"
+            tools:layout_editor_absoluteX="309dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <TextView
+            android:id="@+id/info_deslocamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp"
+            android:text="Total deslocamento:"
+            android:textColor="@color/dark_green"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.165"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/alterar_pagamento" />
+
+
+        <TextView
+            android:id="@+id/info_pag_consulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Total consulta:"
+            android:textColor="@color/dark_green"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.126"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/info_deslocamento" />
+
+        <TextView
+            android:id="@+id/info_valor_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Total:"
+            android:textColor="@color/dark_green"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/info_pag_consulta" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/alterar_pagamento"
+            style="@style/Button_p"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/button"
+            android:drawableRight="@drawable/ic_arrow_24"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="@+id/info_pagamento"
+            tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded"
+            tools:layout_editor_absoluteX="309dp" />
+
+        <ImageButton
+            android:id="@+id/bt_voltar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bt_voltar"
+            app:srcCompat="?attr/homeAsUpIndicator"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
