@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.core.widget.NestedScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
 
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".VetseCrieUmaConta">
-
+    tools:context=".VetSE_Formulario">
 
     <EditText
         android:id="@+id/bottom_back"
@@ -24,46 +24,69 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/title_crieumaconta"
+        android:id="@+id/title_formulario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:text="@string/title_cadastre"
+        android:text="@string/formulario"
         android:textColor="@color/dark_green"
-        android:textSize="35sp"
+        android:textSize="27sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.304"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/title_acessarapp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/acessarapp"
-        android:textSize="20sp"
+        android:id="@+id/mensagen_formulario"
+        android:layout_width="343dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/mensagem_formulario"
         android:textColor="@color/dark_grey"
-        android:layout_marginTop="69dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/title_crieumaconta"
-        />
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/title_formulario" />
 
     <EditText
         android:id="@+id/nome"
         style="@style/edit_text"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:drawableLeft="@drawable/ic_baseline_person_outline_24"
         android:hint="Nome"
         android:inputType="text"
-        app:layout_constraintTop_toBottomOf="@id/title_acessarapp"
+        app:layout_constraintTop_toBottomOf="@id/mensagen_formulario"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="40dp" />
+        tools:layout_editor_absoluteX="41dp" />
+
+    <EditText
+        android:id="@+id/CRMV"
+        style="@style/edit_text"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:hint="CRMV"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/nome"
+        app:layout_editor_absoluteX="41dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Especialidade"
+        style="@style/edit_text"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:hint="Especialidade"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/CRMV"
+        app:layout_editor_absoluteX="41dp"
+        tools:ignore="MissingConstraints" />
+
 
     <EditText
         android:id="@+id/edit_email"
         style="@style/edit_text"
-        app:layout_constraintTop_toBottomOf="@id/nome"
+        app:layout_constraintTop_toBottomOf="@id/Especialidade"
         android:layout_marginTop="20sp"
         android:hint="Digite seu email"
         android:inputType="textEmailAddress"
@@ -145,17 +168,16 @@
 
     <CheckBox
         android:id="@+id/bottom_termo"
-        android:layout_width="307dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
         android:buttonTint="@color/Green_main"
-        android:text="@string/termos"
         android:textColor="@color/black"
+        android:layout_marginTop="36dp"
+        android:text="@string/termos"
         android:textSize="15dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edit_novamente"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteX="40dp"
+        tools:ignore="MissingConstraints"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/termos"
@@ -163,7 +185,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/button"
         android:drawableRight="@drawable/ic_arrow_24"
-        android:text="Cadastrar-se"
+        android:text="Enviar"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="25sp"

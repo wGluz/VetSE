@@ -8,10 +8,22 @@
     tools:context=".VetSE_Bem_Vindo">
 
     <ImageView
+        android:id="@+id/bemvindo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bemvindo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <ImageButton
+        android:id="@+id/bt_bem_vindo"
         android:layout_width="739dp"
         android:layout_height="1177dp"
         android:src="@drawable/bemvindo"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-164dp"
         tools:layout_editor_absoluteY="-250dp" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
