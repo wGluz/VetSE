@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".cadastrar_cartao">
+
+
+        <TextView
+            android:id="@+id/cadastrar_cartao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Cadastrar cartão"
+            android:textColor="@color/dark_green"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.425"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_voltar" />
+
+        <ImageButton
+            android:id="@+id/bt_voltar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bt_voltar"
+            app:srcCompat="?attr/homeAsUpIndicator"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/num_cartao"
+            style="@style/edit_text"
+            app:layout_constraintTop_toBottomOf="@id/cadastrar_cartao"
+            android:layout_marginTop="50dp"
+            android:hint="Número do cartão"
+            android:inputType="number"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/nome_titular_cartao"
+            style="@style/edit_text"
+            app:layout_constraintTop_toBottomOf="@id/num_cartao"
+            android:layout_marginTop="20sp"
+            android:hint="Nome do titular"
+            android:inputType="number"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/cvv_cartao"
+            style="@style/edit_text"
+            app:layout_constraintTop_toBottomOf="@id/nome_titular_cartao"
+            android:layout_marginTop="20sp"
+            android:hint="CVV"
+            android:inputType="number"
+            tools:ignore="MissingConstraints"/>
+
+        <EditText
+            android:id="@+id/validade_cartao"
+            style="@style/edit_text"
+            app:layout_constraintTop_toBottomOf="@id/cvv_cartao"
+            android:layout_marginTop="20sp"
+            android:hint="Validade"
+            android:inputType="number"
+            tools:ignore="MissingConstraints"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_cadastrar_cartao"
+            style="@style/Button"
+            android:background="@drawable/button"
+            android:drawableRight="@drawable/ic_arrow_24"
+            android:text="Cadastrar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@id/validade_cartao"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
