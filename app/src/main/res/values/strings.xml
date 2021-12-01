@@ -16,5 +16,6 @@
     <string name="veterinario">É veterinário e quer se cadastrar?</string>
    <string name="title_home_p1">Encontre o veterinário mais</string>
    <string name="title_home_p2">próximo de você</string>
+   <string name="motivo_cancelamento">Lembrando que uma taxa poderá ser cobrada se o cancelamento não for anterior há 24 horas da data/horário da consulta. Leia os termos de cancelamento. </string>
 
 </resources>
