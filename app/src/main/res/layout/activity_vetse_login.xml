@@ -13,21 +13,21 @@
     android:background="@color/white"
     tools:context=".VetSELogin">
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="240dp"
-        android:layout_height="132dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="96dp"
-        android:src="@drawable/imgcadastro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.955"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ContentDescription" />
 
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="240dp"
+            android:layout_height="132dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="96dp"
+            android:src="@drawable/imgcadastro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.88"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
 
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -78,21 +78,22 @@
         app:layout_constraintTop_toBottomOf="@id/edit_email"
         tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/logar"
-        style="@style/Button"
-        android:text="Logar"
-        android:textSize="25sp"
-        android:textColor="@color/white"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edit_senha"
-        android:background="@drawable/button"
-        android:drawableRight="@drawable/ic_arrow_24"
-        tools:ignore="HardcodedText,RtlHardcoded" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logar"
+            style="@style/Button"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:drawableRight="@drawable/ic_arrow_24"
+            android:text="Logar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_senha"
+            tools:ignore="HardcodedText,RtlHardcoded" />
 
-    <TextView
+        <TextView
         android:id="@+id/esq_senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -107,32 +108,61 @@
         />
 
 
-    <TextView
-        android:id="@+id/possui_cadastro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="-60dp"
-        android:text="@string/senha"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="@id/esq_senha"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.235"
-        app:layout_constraintStart_toStartOf="parent" />
+        <TextView
+            android:id="@+id/possui_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-60dp"
+            android:text="@string/conta"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@id/esq_senha"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.268"
+            app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/cadastre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="-60dp"
-        android:text="@string/cadastro"
-        android:textColor="@color/Green_main"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/esq_senha"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.903"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="DuplicateIds" />
+        <TextView
+            android:id="@+id/cadastre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-60dp"
+            android:text="@string/cadastro"
+            android:textColor="@color/Green_main"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/esq_senha"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.732"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/veterinariocadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-60dp"
+            android:text="@string/veterinario"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@id/possui_cadastro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.479"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/formulariologin"
+            android:layout_width="196dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="-60dp"
+            android:text="Preencha o formulário aqui!"
+            android:textColor="@color/Green_main"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/veterinariocadastrar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
