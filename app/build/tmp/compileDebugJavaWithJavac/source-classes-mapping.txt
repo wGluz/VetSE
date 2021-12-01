@@ -2,6 +2,8 @@ com/example/vetse/EsqueceuSuaSenha.java
  com.example.vetse.EsqueceuSuaSenha
 com/example/vetse/VetseCrieUmaConta.java
  com.example.vetse.VetseCrieUmaConta
+com/example/vetse/menu_navegation.java
+ com.example.vetse.menu_navegation
 com/example/vetse/MainActivity.java
  com.example.vetse.MainActivity
 com/example/vetse/home.java

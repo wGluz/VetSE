@@ -4,6 +4,10 @@
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\pronto.png"
     },
     {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_chat_icon.png.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\chat_icon.png"
+    },
+    {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -48,12 +52,16 @@
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\ic_baseline_phone_android_24.xml"
     },
     {
-        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_imgcadastro.png.flat",
-        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\imgcadastro.png"
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_faq_icon.png.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\faq_icon.png"
     },
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_person_outline_24.xml.flat",
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\ic_baseline_person_outline_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_imgcadastro.png.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\imgcadastro.png"
     },
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_snake_emoji.png.flat",
@@ -62,6 +70,10 @@
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arrow_24.xml.flat",
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\ic_arrow_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_animal_icon.png.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\animal_icon.png"
     },
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -74,6 +86,14 @@
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_eye_24.xml.flat",
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\ic_eye_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_historic_icon.png.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\historic_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_photo.jpg.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\user_photo.jpg"
     },
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
@@ -92,8 +112,20 @@
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_book_icon.png.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\book_icon.png"
+    },
+    {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_divisor_line_white.xml.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\divisor_line_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu_navegation.xml.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\layout\\activity_menu_navegation.xml"
     },
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_arrow_back_24.xml.flat",
@@ -110,6 +142,10 @@
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_bwhite_rounded.xml.flat",
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\bwhite_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_payment_icon.png.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\payment_icon.png"
     },
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_button2.xml.flat",
@@ -130,6 +166,10 @@
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_location_on_24.xml.flat",
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\ic_baseline_location_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_exit_icon.png.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\exit_icon.png"
     },
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_detalhamento_pag.xml.flat",
@@ -164,6 +204,10 @@
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_appointment_icon.png.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\appointment_icon.png"
+    },
+    {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_vetse_crie_uma_conta.xml.flat",
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\layout\\activity_vetse_crie_uma_conta.xml"
     },
@@ -184,6 +228,10 @@
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\bemvindo.png"
     },
     {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_gradient_select_option.xml.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\gradient_select_option.xml"
+    },
+    {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_button.xml.flat",
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\button.xml"
     },
@@ -202,6 +250,10 @@
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_wysiwyg_24.xml.flat",
         "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\ic_baseline_wysiwyg_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_bgreen_light_no_stroke.xml.flat",
+        "source": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\src\\main\\res\\drawable\\bgreen_light_no_stroke.xml"
     },
     {
         "merged": "C:\\Users\\ddani\\AndroidStudioProjects\\Projetos\\Faculdade\\VetSE\\app\\build\\intermediates\\merged_res\\debug\\drawable_circulo_imagem.xml.flat",

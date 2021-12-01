@@ -17,7 +17,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.VetSE" >
+        android:theme="@style/Theme.Design.NoActionBar" >
+        <activity
+            android:name="com.example.vetse.home"
+            android:exported="false" />
+        <activity
+            android:name="com.example.vetse.VetSELogin"
+            android:exported="true" />
         <activity
             android:name="com.example.vetse.VetseCrieUmaConta"
             android:exported="true" />
@@ -28,7 +34,7 @@
             android:name="com.example.vetse.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.vetse.home"
+            android:name="com.example.vetse.menu_navegation"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

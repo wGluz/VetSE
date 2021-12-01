@@ -11,7 +11,7 @@
 9-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:5:5-30:19
+11-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:5:5-36:19
 12        android:allowBackup="true"
 12-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -26,43 +26,55 @@
 18        android:supportsRtl="true"
 18-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
-20        android:theme="@style/Theme.VetSE" >
-20-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:11:9-43
+20        android:theme="@style/Theme.Design.NoActionBar" >
+20-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:11:9-56
 21        <activity
-21-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:12:9-14:39
-22            android:name="com.example.vetse.VetseCrieUmaConta"
-22-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:13:13-46
-23            android:exported="true" />
-23-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:14:13-36
+21-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:12:9-14:40
+22            android:name="com.example.vetse.home"
+22-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:13:13-33
+23            android:exported="false" />
+23-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:14:13-37
 24        <activity
 24-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:15:9-17:39
-25            android:name="com.example.vetse.VetSE_Bem_Vindo"
-25-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:16:13-44
+25            android:name="com.example.vetse.VetSELogin"
+25-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:16:13-39
 26            android:exported="true" />
 26-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:17:13-36
 27        <activity
 27-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:18:9-20:39
-28            android:name="com.example.vetse.MainActivity"
-28-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:19:13-41
+28            android:name="com.example.vetse.VetseCrieUmaConta"
+28-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:19:13-46
 29            android:exported="true" />
 29-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:20:13-36
 30        <activity
-30-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:21:9-29:20
-31            android:name="com.example.vetse.home"
-31-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:22:13-33
-32            android:exported="true" >
+30-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:21:9-23:39
+31            android:name="com.example.vetse.VetSE_Bem_Vindo"
+31-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:22:13-44
+32            android:exported="true" />
 32-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:23:13-36
-33            <intent-filter>
-33-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:24:13-28:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:25:17-69
-34-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:25:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:27:17-77
-36-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:27:27-74
-37            </intent-filter>
-38        </activity>
-39    </application>
-40
-41</manifest>
+33        <activity
+33-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:24:9-26:39
+34            android:name="com.example.vetse.MainActivity"
+34-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:25:13-41
+35            android:exported="true" />
+35-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:26:13-36
+36        <activity
+36-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:27:9-35:20
+37            android:name="com.example.vetse.menu_navegation"
+37-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:28:13-44
+38            android:exported="true" >
+38-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:29:13-36
+39            <intent-filter>
+39-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:30:13-34:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:31:17-69
+40-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:31:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:33:17-77
+42-->C:\Users\ddani\AndroidStudioProjects\Projetos\Faculdade\VetSE\app\src\main\AndroidManifest.xml:33:27-74
+43            </intent-filter>
+44        </activity>
+45    </application>
+46
+47</manifest>

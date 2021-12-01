@@ -5,15 +5,20 @@
       <map>
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/drawable/bg_rounded.xml" value="0.2890625" />
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/drawable/bgreen_light.xml" value="0.2890625" />
+        <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/drawable/bgreen_light_no_stroke.xml" value="0.2890625" />
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/drawable/bgreen_rounded.xml" value="0.2890625" />
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/drawable/bwhite_rounded.xml" value="0.2890625" />
+        <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/drawable/divisor_line_white.xml" value="0.2890625" />
+        <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/drawable/gradient_select_option.xml" value="0.2890625" />
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/drawable/ic_arrow_24.xml" value="0.2890625" />
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/layout/activity_esqueceu_sua_senha.xml" value="0.33" />
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/layout/activity_menu_navegation.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/layout/activity_vet_se_bem_vindo.xml" value="0.14270833333333333" />
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/layout/activity_vetse_crie_uma_conta.xml" value="0.266304347826087" />
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/layout/activity_vetse_login.xml" value="0.259963768115942" />
+        <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE/app/src/main/res/layout/menu.xml" value="0.25" />
         <entry key="..\:/Users/ddani/AndroidStudioProjects/Projetos/Faculdade/VetSE_teste/app/src/main/res/layout/activity_home.xml" value="0.27291666666666664" />
       </map>
     </option>
