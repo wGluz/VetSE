@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EsqueceuSuaSenha">
+
+    <EditText
+        android:id="@+id/bottom_back"
+        android:layout_width="66dp"
+        android:layout_height="50dp"
+        android:drawableBottom="@drawable/ic_baseline_arrow_back_24"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/esqsenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/esqSenha"
+        android:textColor="@color/dark_green"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mensagen_formulario"
+        android:layout_width="230dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/infoesqsenha"
+        android:textColor="@color/dark_grey"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/esqsenha" />
+
+
+    <EditText
+        android:id="@+id/rec_email"
+        style="@style/edit_text"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="Digite seu email"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/mensagen_formulario"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="41dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rec_enviar"
+        style="@style/Button"
+        android:layout_width="131dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button"
+        android:drawableRight="@drawable/ic_arrow_24"
+        android:text="Enviar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rec_email"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/inforecsenha"
+        android:layout_width="275dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/inforecsenha"
+        android:textColor="@color/dark_grey"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rec_enviar" />
+
+    <EditText
+        android:id="@+id/dig_senha"
+        style="@style/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/inforecsenha"
+        android:layout_marginTop="20sp"
+        android:hint="Digite sua senha"
+        android:drawableRight="@drawable/ic_eye_24"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock_24"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/rec_senha"
+        style="@style/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/dig_senha"
+        android:layout_marginTop="20sp"
+        android:hint="Digite nova senha"
+        android:drawableRight="@drawable/ic_eye_24"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock_24"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/conf_senha"
+        style="@style/edit_text"
+        app:layout_constraintTop_toBottomOf="@id/rec_senha"
+        android:layout_marginTop="20sp"
+        android:hint="Confirme sua senha"
+        android:drawableRight="@drawable/ic_eye_24"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock_24"
+        tools:ignore="MissingConstraints"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/alte_senha"
+        style="@style/Button"
+        android:layout_width="303dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button2"
+        android:text="Alterar senha"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/conf_senha"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
