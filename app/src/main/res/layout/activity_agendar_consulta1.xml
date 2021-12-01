@@ -26,7 +26,7 @@
             app:layout_constraintTop_toBottomOf="@id/bt_voltar" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/agenda_consulta"
+            android:id="@+id/bt_agenda_consulta"
             style="@style/Button"
             android:background="@drawable/button"
             android:drawableRight="@drawable/ic_arrow_24"
@@ -51,14 +51,84 @@
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="16dp" />
 
-        <CalendarView
-            android:id="@+id/calendario_consulta"
+        <ImageView
+            android:id="@+id/img_calendario"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/calendario"
+            app:layout_constraintEnd_toStartOf="@+id/bt_Data"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <ImageView
+            android:id="@+id/img_horario"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/horario"
+            app:layout_constraintEnd_toStartOf="@+id/bt_Horario"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <Button
+            android:id="@+id/bt_Data"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="52dp"
+            android:clickable="true"
+            android:text="Data"
+            android:textSize="12sp"
+            app:backgroundTint="@color/Green_main"
+            app:layout_constraintEnd_toStartOf="@+id/img_horario"
+            app:srcCompat="@android:drawable/ic_menu_edit"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="230dp" />
+
+
+        <Button
+            android:id="@+id/bt_Horario"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:text="Horário"
+            android:textSize="12sp"
+            app:backgroundTint="@color/Green_main"
+            app:srcCompat="@android:drawable/ic_menu_edit"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="271dp"
+            tools:layout_editor_absoluteY="230dp" />
+
+        <TextView
+            android:id="@+id/info_observações"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="30dp"
-            tools:layout_editor_absoluteY="178dp"
-            tools:ignore="MissingConstraints" />
+            android:layout_marginTop="72dp"
+            android:text="Observações"
+            android:textColor="@color/Green_main"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.213"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bt_Data" />
 
+        <EditText
+            android:id="@+id/info_alergias"
+            style="@style/edit_text"
+            android:layout_width="335dp"
+            android:layout_height="106dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@+id/info_observações"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="40dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".confirmar_cancelamento">
+
+    <TextView
+        android:id="@+id/cancelar_consulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Deseja cancelar a consulta?"
+        android:textColor="@color/dark_green"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bt_voltar" />
+
+
+    <TextView
+        android:id="@+id/motivo_cancelamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Qual o motivo do cancelamento?"
+        android:textColor="@color/Green_main"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cancelar_consulta" />
+
+    <EditText
+        android:id="@+id/info_motivo_cancelamento"
+        style="@style/edit_text"
+        android:layout_width="335dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/motivo_cancelamento"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp" />
+
+    <ImageButton
+        android:id="@+id/bt_voltar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bt_voltar"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_cancelar_consulta"
+        style="@style/Button"
+        app:backgroundTint="@color/red"
+        android:drawableRight="@drawable/ic_arrow_24"
+        android:text="Cancelar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,RtlHardcoded"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <TextView
+        android:id="@+id/dica_termos"
+        android:layout_width="306dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/motivo_cancelamento"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_motivo_cancelamento" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="332dp"
+        android:layout_height="69dp"
+        android:textSize="18sp"
+        android:text="Declaro que li e concordo com os Termos de uso e política de cancelamento."
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="537dp"
+        tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
